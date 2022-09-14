@@ -1,0 +1,12 @@
+package com.company;
+
+public class Pipe implements Tool{
+    int diameter;
+    Pipe(int diameter) {
+        this.diameter = diameter;
+    }
+    @Override
+    public void play(){
+        System.out.printf("Играет труба, диаметр: %s %s", diameter, "||");
+    }
+    }

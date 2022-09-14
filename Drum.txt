@@ -1,0 +1,15 @@
+package com.company;
+
+public class Drum implements Tool{
+    int size;
+    public  int getSize(){
+        return size;
+    }
+    Drum(int size){
+        this.size = size;
+    }
+    @Override
+    public void play(){
+        System.out.printf("Играет барабан, размер: %s %s", size, "||");
+    }
+}

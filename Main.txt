@@ -1,0 +1,15 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	Guitar guitar = new Guitar(6);
+        guitar.play();
+
+        Drum drum = new Drum(30);
+        drum.play();
+
+        Pipe pipe = new Pipe(10);
+        pipe.play();
+    }
+}
